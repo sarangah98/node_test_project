@@ -14,7 +14,7 @@ pool.connect((err) => {
 });
 
 
-app.get('/get_method', (req, res) => {
+app.get('/test', (req, res) => {
     try {
         console.log('This is GET method');
         res.send('This is GET method');
@@ -25,7 +25,7 @@ app.get('/get_method', (req, res) => {
 });
 
 
-app.post('/post_method', (req, res) => {
+app.post('/test', (req, res) => {
     try {
         console.log('This is POST method');
         res.send('This is POST method');
@@ -36,7 +36,7 @@ app.post('/post_method', (req, res) => {
 });
 
 
-app.put('/put_method', (req, res) => {
+app.put('/test', (req, res) => {
     try {
         console.log('This is PUT method');
         res.send('This is PUT method');
